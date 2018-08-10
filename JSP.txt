@@ -1,0 +1,17 @@
+JSP Special Tags
+<%	%>		Scriplet
+<%!	%>		Declaration (Class-level)
+<%@	%>		Directive
+<%=	%>		Experssion
+<%--	--%>		Comment
+
+JSP Implicit Objects
+request
+respose
+out
+page
+pageContext
+session
+application
+exception
+config
