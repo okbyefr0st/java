@@ -1,25 +1,72 @@
-1)what is dependency injection
-what is bean autowiring
-which implementation of appln ontext gives us control to shut down controller
-injecting the values using setter or constructor injkection -code
-which of the following annotation are used for         lifecycle 
-in xpring appln context the singleton beans are by default lazy or eager
-what is dispatcher servlet
-what is the role of context loader listener
-which of the following is correct for resolving view resolver-code
-does hubernate support dependency injection
-instantiating session in hibernate including session factory-default location of hibenrate cfg.xml
-which state of obj ensures -ans- persistent state
-whch of the foollowing converts transient to persistent
-the jsp lifecycle method
-whixh of the followinf directive used for import jsp i
-which of the foloowig is not jsp implicit obj
-difference betwen get parameter and get atrribute method
-which if the following is not a directive in jsp 
-which of the following container service allows to lookup for resources
-which of the following correct annotation for composite key in hibernate
-how many fetch strategies supoorted in hibernate
-which staragey fires only single query to get parent and child record
+1)what is dependency injection --> way of creating object without using new keyword
+
+what is bean autowiring --> @Autowired annotation used to implement dependency injection
+
+which implementation of appln context gives us control to shut down controller --> ConfigurableApplicationContext
+
+injecting the values using setter or constructor injection -code -->
+
+<bean id="obj" class="com.javatpoint.Employee">  
+<property name="id">  
+<value>20</value>  
+</property>  
+<property name="name">  
+<value>Arun</value>  
+</property>  
+<property name="city">  
+<value>ghaziabad</value>  
+</property>    
+</bean>
+
+<bean id="e" class="com.javatpoint.Employee">  
+<constructor-arg value="10" type="int"></constructor-arg>  
+</bean>
+
+
+
+which of the following annotation are used for lifecycle of spring --> @PostContruct and @PreDestroy
+
+in xpring appln context the singleton beans are by default lazy or eager --> Eager
+
+what is dispatcher servlet--> Front controller in Spring
+
+what is the role of context loader listener --> It creates and start application context
+
+which of the following is correct for resolving view resolver-code --> to return the view to the controller
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+does hubernate support dependency injection --> No
+
+instantiating session in hibernate including session factory-default location of hibenrate cfg.xml --> CLASSPATH
+
+which state of obj ensures synchronization of DB -ans--> persistent state
+
+whch of the foollowing converts transient to persistent --> SAVE()
+
+the jsp lifecycle method --> jspinit() _jspservice() jspdestroy()
+
+whixh of the following directive used for import jsp --> page directive, include directive and taglib directive
+
+which of the following is not jsp implicit obj --> request response out session application config page pageContext Exception
+
+difference between get parameter and get atrribute method --> getParameter - Is used for getting the information you need from the Client's HTML page 
+
+getAtribute - This is used for getting the parameters set previously in another or the same JSP or Servlet page. Basically, if you are forwarding or just going from one jsp/servlet to another one, there is no way to have the information you want unless you choose to put them in an Object and use the setAttribute to store in a Session variable. 
+
+which of the following is not a directive in jsp --> These are directives <%@page%> <%@include%> <%@taglib%> 
+
+which of the following container service allows to lookup for resources -->
+
+which of the following correct annotation for composite key in hibernate --> @Embedded
+
+how many fetch strategies suported in hibernate --> fetch="join" fetch="select" fetch="size" fetch="subset"
+
+which staragey fires only single query to get parent and child record -->
+
 which xml attrivute is  responsible to save update and delete parent child db 
 graph in DB-anwers->cascade
 which if the following is the default loader for child element in hiberante
