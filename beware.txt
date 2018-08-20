@@ -1,0 +1,57 @@
+1)what is dependency injection
+what is bean autowiring
+which implementation of appln ontext gives us control to shut down controller
+injecting the values using setter or constructor injkection -code
+which of the following annotation are used for         lifecycle 
+in xpring appln context the singleton beans are by default lazy or eager
+what is dispatcher servlet
+what is the role of context loader listener
+which of the following is correct for resolving view resolver-code
+does hubernate support dependency injection
+instantiating session in hibernate including session factory-default location of hibenrate cfg.xml
+which state of obj ensures -ans- persistent state
+whch of the foollowing converts transient to persistent
+the jsp lifecycle method
+whixh of the followinf directive used for import jsp i
+which of the foloowig is not jsp implicit obj
+difference betwen get parameter and get atrribute method
+which if the following is not a directive in jsp 
+which of the following container service allows to lookup for resources
+which of the following correct annotation for composite key in hibernate
+how many fetch strategies supoorted in hibernate
+which staragey fires only single query to get parent and child record
+which xml attrivute is  responsible to save update and delete parent child db 
+graph in DB-anwers->cascade
+which if the following is the default loader for child element in hiberante
+from hibernate cfg -what is the role of dialaect in this code-code
+the correct code snippet for specifiyng the mapping entries in cfg file
+at what tym the servlet init mehtod is called
+all the possble ways of redirecting servlet and servlet pag in jsp 
+scope-diffeent scopes in servlet and jsp 
+spring config can be writeen in -select all that apply
+wich of the follioieng is not a stereotype of component
+which of teh follwoing annotastinmakes the transzaction aware
+which of the follwoing is false aboput lazy loading
+which of the following is  the directive in tree for making an  entry ierror pg 
+servlet is the child of ________
+which of the follliwng the correct annotation  for servlet
+which http method ends session 
+read a code snippet identify -native sql or HQL-code
+which of hr foolwoiig nis the correct annotaiton for request mapping in spring annotation
+what autowire annotation does
+which of the foolowing are mandatory annotation for hibernate entity 
+which of the following is correct syntax for importing external javascripyt
+code sniipet -wuithout closing title tag -code 
+where AND fucntion IN JAVASCRIPT ARE
+which of the foolowing loop manages the cursor implicitly 
+which of the following parameter type acts as a constant
+query with nested group funvtion-is a valid sql query-code 
+which of the foloweinhg statement helps in invokiing databse stored precdeure in jdbc
+join query code snippet ,identifiy the type of join -code
+code snippet on cursor-try to print rowcount before fetch nad after fetch -code
+which of the folowing is the synchronized collection
+what can be done for sorting custom ojbect in a treeset
+ 
+
+
+3)
